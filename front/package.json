@@ -1,0 +1,27 @@
+{
+  "name": "next-front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production nodemon server.js",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "antd": "^4.19.5",
+    "axios": "^0.26.1",
+    "classnames": "^2.3.1",
+    "md5": "^2.3.0",
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "spark-md5": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "8.11.0",
+    "eslint-config-next": "12.1.0",
+    "express": "^4.17.3",
+    "http-proxy-middleware": "^2.0.4"
+  }
+}
